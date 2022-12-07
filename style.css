@@ -1,0 +1,108 @@
+.submarine {
+    width: 400px;
+    height: 100px;
+    background: grey;
+    border-radius: 100px/50px;
+    position: absolute;
+    border-right: 50px solid cyan;
+}
+
+body {
+    background-color: rgba(38, 38, 220, 0.864);
+}
+
+.window {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 37.5px;
+    margin-left: 35px;
+}
+
+.window2 {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.window3 {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+.window4 {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 170px;
+}
+
+.window5 {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+}
+
+.window6 {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 260px;
+}
+.window7 {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 305px;
+}
+
+.window8 {
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    background: #83A7C9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 37.5px;
+    margin-left: 350px;
+}
+
+.end {
+    width: 100;
+    height: 200;
+    border-top: 50px solid transparent;
+    border-left: 100px solid grey;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+}

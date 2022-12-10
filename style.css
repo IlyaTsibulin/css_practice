@@ -76,6 +76,7 @@ body {
     margin-top: 25px;
     margin-left: 260px;
 }
+
 .window7 {
     /* margin-top: 20px; */
     width: 25px;
@@ -105,4 +106,33 @@ body {
     border-left: 100px solid grey;
     border-bottom: 50px solid transparent;
     position: absolute;
+}
+
+.all{
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animation {
+    0% {
+        transform: translate(-200px, 0);
+    }
+
+    25% {
+        transform: translate(25%, 0);
+    }
+
+    50% {
+        transform: translate(50%, 0);
+    }
+
+    75% {
+        transform: translate(75%, 0);
+    }
+
+    100% {
+        transform: translate(calc(100% + 200px), 0);
+    }
 }
